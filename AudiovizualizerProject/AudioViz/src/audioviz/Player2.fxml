@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!-- Author: Professor Wergeles -->
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="audioviz.Player2Controller">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" styleClass="mainFxmlClass">
+          <stylesheets>
+              <URL value="@player.css" />
+          </stylesheets>
+         <children>
+            <Button layoutX="828.0" layoutY="618.0" mnemonicParsing="false" onAction="#handleExit" text="Return to visualizer" />
+            <Text layoutX="390.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Program Description">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="14.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This program can take either an mp3 or mp4 file, and create a visual of the song changing overtime. " />
+            <Text layoutX="15.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There are many applications that use similar programs, such as the SoundCloud mobile app, and many sound/video production softwares " />
+            <Text layoutX="15.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(FL Studio, GarageBand, Song Vegas Pro, etc). These applications all create audiovisuals that represent the total timeframe of the inputted file" />
+            <Text layoutX="14.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Every 20th of a second, this program takes a specified frequency and visualizes its magnitude with a newly created ellipse. As magnitude" />
+            <Text layoutX="14.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="increases, the height of the ellipses increase and change colors accordingly. The user can save the visual as an image file at any point in time." />
+            <Text layoutX="386.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About The Developer">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="14.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My name is Tarek Elbendary. I'm currently in school for computer science, and I made this program for my final project in object oriented" />
+            <Text layoutX="14.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="programming in 2019." />
+            <Text layoutX="14.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The reason why I chose this idea for my application is because I wanted to create something that had legitimate real world applications." />
+            <Text layoutX="15.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Since I am familiar with all these applications, this idea was an intriguing challenge for me" />
+            <Text layoutX="385.0" layoutY="516.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you for using my app!">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
